@@ -1,22 +1,14 @@
 {
   "name": "part84_twitter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Twitter Clone Practice Project",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
-    "prebuild": "chmod +x node_modules/.bin/tailwindcss",
-    "dev": "vite"
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "@tailwindcss/cli": "^4.2.2",
-    "tailwind-scrollbar-hide": "^4.0.0",
-    "tailwindcss": "^4.2.2",
-    "vite": "^8.0.8"
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "tailwind-scrollbar-hide": "^2.0.0"
   }
 }
